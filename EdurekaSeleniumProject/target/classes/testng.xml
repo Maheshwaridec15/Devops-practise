@@ -1,0 +1,32 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Edureka Application Test Automation Test suite">
+
+<listeners>
+		<listener class-name="co.edureka.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+<listeners>
+		<listener class-name="co.edureka.qa.Analyzer.MyTransformer" />
+	</listeners>
+
+  <test name="Edureka Application Functional Test set 001">
+    <classes>
+     <class name="co.edureka.qa.testcases.LoginPageTest"></class>
+    </classes>
+  </test> 
+ 
+  
+  <test name="Edureka Application Functional Test set 002">
+    <classes>
+     <class name="co.edureka.qa.testcases.BlogPageTest"></class>
+    </classes>
+  </test> 
+  
+  <test name="Edureka Application Functional Test set 003">
+    <classes>
+     <class name="co.edureka.qa.testcases.HomePageTest"></class>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

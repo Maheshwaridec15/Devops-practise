@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Edureka Application Test Automation Test suite]">
+  <listeners>
+    <listener class-name="co.edureka.qa.Analyzer.MyTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Edureka Application Functional Test set 002(failed)">
+    <classes>
+      <class name="co.edureka.qa.testcases.BlogPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyBlogPageTitleTest"/>
+        </methods>
+      </class> <!-- co.edureka.qa.testcases.BlogPageTest -->
+    </classes>
+  </test> <!-- Edureka Application Functional Test set 002(failed) -->
+  <test thread-count="5" name="Edureka Application Functional Test set 003(failed)">
+    <classes>
+      <class name="co.edureka.qa.testcases.HomePageTest">
+        <methods>
+          <include name="viewAllCoursesAvailable"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- co.edureka.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Edureka Application Functional Test set 003(failed) -->
+</suite> <!-- Failed suite [Edureka Application Test Automation Test suite] -->
